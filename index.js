@@ -1,5 +1,5 @@
 function updateObjectWithKeyAndValue(obj, key, value) {
-  let newObj = obj
+  let newObj = obj.clone()
   newObj[key] = value
   return newObj
 }
