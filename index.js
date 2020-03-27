@@ -1,3 +1,4 @@
 function updateObjectWithKeyAndValue(obj, key, value) {
-  return Object.assign({}, obj, {key: value})
+  let newObj = Object.assign({}, obj, {key: value})
+  return newObj
 }
